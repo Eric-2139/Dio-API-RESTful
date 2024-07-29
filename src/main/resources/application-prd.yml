@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: postgresql://postgres:OywbHdgpQFfEyuiLhssixFOEVPfVQsul@postgres.railway.internal:5432/railway
+    username: postgres
+    password: OywbHdgpQFfEyuiLhssixFOEVPfVQsul
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    show-sql: true
+    
